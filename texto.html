@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <img class="logo" src="img/logo.jpg" alt="logo">
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Bem-vindo</a></li>
+                <li><a href="texto.html">Texto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobre.html">Sobre o artista</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Texto crítico</h2>
+            <p>A primeira vez que me arvoro a escrever sobre o trabalho de um artista. É uma responsabilidade grande, mais topei o desafio. Erik me pediu para escrever sobre seus desenhos. Aceitei o desafio! </p>
+        <p>Conheci primeiro a pintura do artista visual Erik Kleiver – as massas de cores den sas que aguçam a nossa atenção para as composições plásticas que não passam despercebidas. Agora, a série de desenhos que ele me fez conhecer, alimentando por momentos de conversas sobre o fazer artístico. Com os trabalhos que ele me passou, tento elaborar pensamentos para dar o norte às palavras para expressar o que sinto enxergando-as entre linhas dos seus desenhos com personalidade que me chamaram a atenção. O “bem fazer do desenho” fica em segundo plano nos seus trabalhos. Ele se lança de forma visceral na labuta, entre as ideias e o ato de desenhar os pontos-traços-linhas no uso da tinta nanquim de tênue afinidade so bre o suporte. As formas híbridas, entre animais e figuras humanas e vegetais se metamorfoseiam numa relação simbólica forte. Muitas vezes não sabemos onde começa e termina uma imagem e começa outra, pela conjunção de traços e re traços em deslocamentos constantes para dar vazão as invenções das formas que surgem da folha de papel. Eles induzem o olhar do observador a seguir o fio dos traços e completar o percurso do movimento alinhados na encenação “burlesca” e coreografando novos personagens que surgem das ausências de certezas. Sa bendo que é na memória e nos sentidos dessas incertezas na relação imagética do artista que se dá o impulso criador dialogando com a sociedade contemporânea.</p>
+        Luiz Barroso<br> Artista <br> João Pessoa, PB.
+        </article>
+
+    </main>
+    <script>
+        
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+    if (itens.style.display === 'none') {
+        itens.style.display = 'block';
+    } else {
+        itens.style.display = 'none';
+    }
+    
+}
+    </script>
+</body>
+</html>

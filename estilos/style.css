@@ -84,3 +84,16 @@ article > p{
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    font-family: 'roboto', sans-serif;
+    color:black;
+    background-color:white;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    width: auto;
+} 

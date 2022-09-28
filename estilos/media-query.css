@@ -8,6 +8,8 @@ Descktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
+
+
 @media screen and (min-width: 768px) {
    span#burger{
     display:none ;
@@ -29,4 +31,11 @@ Grandes telas: acima de 1200px
    header > img.logo{
       width: 50vw;
   }
+}
+
+@media screen and (max-width: 375px) {
+   
+  header > img.logo{
+   width: 100vw;
+}
 }
