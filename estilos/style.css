@@ -19,6 +19,12 @@ header > h1{
     text-align: center;
 }
 
+header > img.logo{
+    
+    display: flex;
+    align-items: center;
+}
+
 span#burger{
     background-color:black;
     color: white;
