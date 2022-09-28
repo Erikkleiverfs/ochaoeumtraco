@@ -19,10 +19,14 @@ header > h1{
     text-align: center;
 }
 
-header > img.logo{
-    
+header img{
+    margin: auto;
+    width: 100%;
     display: flex;
-    align-items: center;
+}
+
+header > img.logo{
+    width: 65vw;
 }
 
 span#burger{

@@ -25,4 +25,8 @@ Grandes telas: acima de 1200px
    main{
     width: 768px;
    }
+
+   header > img.logo{
+      width: 50vw;
+  }
 }
