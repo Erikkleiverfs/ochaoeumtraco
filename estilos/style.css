@@ -74,13 +74,6 @@ main{
     margin-top: 10px;
 }
 
-article{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
 article > h2{
     padding-bottom: 20px;
 }
@@ -89,10 +82,6 @@ article > p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
-}
-
-#perfil img{
-    width:300px; 
 }
 
 footer{
