@@ -11,14 +11,27 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 
     <style>
-        /*provisorio enquanto não insiro o conteúdo completo*/
-        body, html{
-            color: white;
+        article#galeria{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 2vw;
+            padding: 80px 1vw;
         }
-        
-        article{
-            width: auto;
-            height: 400px;
+        .gallery-items{
+            width: 340px;
+            height: 450px;
+            border: 10px solid #fff;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+            transition: transform .5s linear;
+        }
+        .gallery-items img:hover{
+            transform: scale(1.1);
+        }
+        .gallery-items img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     </style>
 
@@ -39,7 +52,38 @@
 
     <main>
         <article>
-            
+            <div id="galeria">
+                <a href="img/o-fausto.jpg" class="gallery-items">
+                    <img src="img/o-fausto.jpg" alt="O Fausto">
+                </a>
+                <a href="img/peter.jpg" class="gallery-items">
+                    <img src="img/peter.jpg" alt="Peter">
+                </a>
+                <a href="img/desnudo.jpg" class="gallery-items">
+                    <img src="img/desnudo.jpg" alt="Desnudo">
+                </a>
+                <a href="img/bicho-bolsa.jpg" class="gallery-items">
+                    <img src="img/bicho-bolsa.jpg" alt=Bicho-bolsa>
+                </a>
+                <a href="img/maria.jpg" class="gallery-items">
+                    <img src="img/maria.jpg" alt="Maria">
+                </a>
+                <a href="img/analista.jpg" class="gallery-items">
+                    <img src="img/analista.jpg" alt="Analista de ecos">
+                </a>
+                <a href="img/dobradiças.jpg" class="gallery-items">
+                    <img src="img/dobradiças.jpg" alt="Dobradiças">
+                </a>
+                <a href="img/face-turva.jpg" class="gallery-items">
+                    <img src="img/face-turva.jpg" alt="Face turva">
+                </a>
+                <a href="img/Traço Ferreira da Silva.jpg" class="gallery-items">
+                    <img src="img/Traço Ferreira da Silva.jpg" alt="Traço Ferreira da Silva">
+                </a>
+                <a href="img/vida.jpg" class="gallery-items">
+                    <img src="img/vida.jpg" alt="Vida">
+                </a>
+                </div>
         </article>
 
     </main>
