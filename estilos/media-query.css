@@ -31,6 +31,8 @@ Grandes telas: acima de 1200px
    header > img.logo{
       width: 50vw;
   }
+  
+  
 }
 
 @media screen and (max-width: 375px) {
